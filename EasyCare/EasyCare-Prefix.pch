@@ -1,0 +1,23 @@
+//
+//  EasyCare-Prefix.pch
+//  EasyCare
+//
+//  Created by Vien Tran on 12/12/14.
+//  Copyright (c) 2014 Vien Tran. All rights reserved.
+//
+
+#ifndef EasyCare_EasyCare_Prefix_pch
+#define EasyCare_EasyCare_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <ReactiveCocoa/RACEXTScope.h>
+#import "Macros.h"
+#import "UIColor+EasyCare.h"
+#import "Utils.h"
+#import "Constants.h"
+#import "CoreData+MagicalRecord.h"
+#import "DateFormatter.h"
+
+#endif
